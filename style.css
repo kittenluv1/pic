@@ -1,0 +1,80 @@
+html {
+	background-color: #DFF2FF;
+	font-family: Tahoma, sans-serif;
+	color: #65618C;
+}
+
+fieldset {
+	border: 2px solid #65618C;
+	width: 100%;
+}
+
+hr {
+	border: 1px solid #65618C;
+}
+
+h1 {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 50%;
+}
+
+#greeting {
+	position: fixed;
+	top: 0;
+	right: 1%;
+}
+
+main {
+	margin-right: 10%;
+}
+
+nav {
+	position: fixed;
+	top: 5%;
+	right: 2%;
+}
+
+#content {
+	width: 100%;
+	height: 150px;
+}
+
+#credit_para {
+	position: sticky;
+	top: 2px;
+}
+
+table {
+	margin: 20px;
+	border: 2px solid #65618C;
+	border-spacing: 10px;
+	width: 100%;
+}
+
+td {
+	border: 1px solid #65618C;
+	width: 10%;
+	height: 50px;
+	padding: 0px 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+td img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+}
+
+td img:hover {
+	opacity: 70%;
+	cursor: pointer;
+}
+
+#receipt {
+	font-family: 'Courier New', Courier, monospace;
+}
